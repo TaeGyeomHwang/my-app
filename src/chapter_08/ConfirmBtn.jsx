@@ -3,9 +3,13 @@ import React, { useState } from "react";
 function ConfirmBtn(props) {
   const [isConfirmed, setIsConfirmed] = useState(false);
 
-  const handleConfirm = () => {
+  // const handleConfirm = () => {
+  //   setIsConfirmed((prevIsConfirmed) => !prevIsConfirmed);
+  // };
+
+  function handleConfirm() {
     setIsConfirmed((prevIsConfirmed) => !prevIsConfirmed);
-  };
+  }
 
   return (
     <button onClick={handleConfirm} disabled={isConfirmed}>
