@@ -1,4 +1,5 @@
 import React from "react";
+// 실습: 시계 만들기
 
 function Tick(){
   return(

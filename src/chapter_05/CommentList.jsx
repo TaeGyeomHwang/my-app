@@ -19,9 +19,9 @@ const comments = [
 function CommentList(props) {
   return (
     <div>
-      {comments.map((comment) => {
+      {comments.map((e) => {  // e는 element의 줄임말
         return (
-          <Comment name={comment.name} comment={comment.comment} />
+          <Comment name={e.name} comment={e.comment} />
         );
       })}
     </div>

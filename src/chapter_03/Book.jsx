@@ -1,4 +1,5 @@
 import React from "react";
+// 실습: jsx 코드 작성해보기
 
 function Book(props){
   return(

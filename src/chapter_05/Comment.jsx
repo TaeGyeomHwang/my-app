@@ -1,4 +1,5 @@
 import React from "react";
+// 실습: 댓글 컴포넌트 만들기
 
 const styles = {
   wrapper: {
@@ -36,7 +37,7 @@ function Comment(props) {
   return (
     <div style={styles.wrapper}>
       <div style={styles.imageContainer}>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"  style={styles.image} />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" alt="profilePicture" style={styles.image} />
       </div>
 
       <div style={styles.contentContainer}>
