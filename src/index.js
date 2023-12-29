@@ -7,15 +7,16 @@ import reportWebVitals from './reportWebVitals';
 import Library from './chapter_03/Library'; 
 import ConfirmDialog from './chapter_03/ConfirmDialog';
 import Tick from './chapter_04/Tick';
+import Welcome from './chapter_05/Welcome';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-setInterval(()=>{
+
   root.render(
     <React.StrictMode>
-      <Tick/>
+      <Welcome name = "홍길동"/>
     </React.StrictMode>
   );
-},1000);
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
