@@ -8,12 +8,13 @@ import Library from './chapter_03/Library';
 import ConfirmDialog from './chapter_03/ConfirmDialog';
 import Tick from './chapter_04/Tick';
 import Welcome from './chapter_05/Welcome';
+import CommentList from './chapter_05/CommentList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
   root.render(
     <React.StrictMode>
-      <Welcome name = "홍길동"/>
+      <CommentList/>
     </React.StrictMode>
   );
 
