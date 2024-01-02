@@ -1,3 +1,7 @@
+![다운로드](https://github.com/TaeGyeomHwang/my-app/assets/80676211/fdb9cf35-04af-4225-9b60-36f8cd69676b)
+
+# [소플의 처음 만난 리액트] 책의 실습 내용을 정리했습니다.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
