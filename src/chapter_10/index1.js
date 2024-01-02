@@ -3,14 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import DarkOrLight from './chapter_14/DarkOrLight';
-
+import MainPage from './chapter_09/MainPage';
+import LandingPage from './chapter_09/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const numbers = [1, 2, 3, 4, 5];
+const listItems = numbers.map((e, index) =>
+  <li key = {index}>{e}</li>);
 
 root.render(
   // <React.StrictMode>  //  컴포넌트를 마운트 시켰다가 언마운트 시키는 과정을 거친다.
-  <DarkOrLight />
+  <ul>{listItems}</ul>
   // </React.StrictMode>
 );
 
