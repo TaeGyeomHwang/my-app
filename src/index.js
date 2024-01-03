@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import DarkOrLight from './chapter_14/DarkOrLight';
+import Blocks from './chapter_15/Blocks';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   // <React.StrictMode>  //  컴포넌트를 마운트 시켰다가 언마운트 시키는 과정을 거친다.
-  <DarkOrLight />
+  <Blocks />
   // </React.StrictMode>
 );
 
